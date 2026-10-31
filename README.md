@@ -632,6 +632,7 @@ Tools that give AI agents persistent memory and context.
 | [Blume](https://blume.codes/) | Desktop context companion | Monitors coding-agent sessions, surfaces the rules, skills, and hooks shaping each run, proposes reviewable context improvements, and keeps chat history local. |
 | [Headroom](https://github.com/headroomlabs-ai/headroom) | Context compression | Compresses tool output, logs, and RAG chunks before they reach the model. About 20% fewer tokens. Library, proxy, and MCP server. 67k+ stars. |
 | [Beads](https://github.com/gastownhall/beads) | Issue and memory ledger | Version-controlled ledger for agent work so sessions resume after crashes. 26k+ stars. |
+| [TASKS.md](https://github.com/taskade/tasks.md) | Build ledger | What was asked, decided, and built with evidence. Next session starts from the file, not from memory. |
 | [Byterover CLI (formerly Cipher)](https://github.com/campfirein/byterover-cli) | Memory layer | Open-source memory for coding agents. Works with Claude Code, Cursor, Cline, and more. |
 | [mem0](https://github.com/mem0ai/mem0) | Memory layer | Self-improving memory for AI agents. Learns from interactions. |
 | [Letta (MemGPT)](https://github.com/letta-ai/letta) | Agent framework | Agents with persistent memory and self-editing capabilities. |
@@ -648,6 +649,7 @@ Skills are reusable, versioned instruction packages (a `SKILL.md` file plus opti
 | Resource | Type | Why It's Awesome |
 |----------|------|------------------|
 | [Agent Skills Specification](https://github.com/agentskills/agentskills) | Spec | The open `SKILL.md` standard. 24k+ stars. Start here to understand the format. |
+| [TASKS.md](https://github.com/taskade/tasks.md) | Spec + skill | The build ledger a coding agent keeps. What was asked, decided, and built with evidence. `npx skills add taskade/tasks.md`. |
 | [superpowers](https://github.com/obra/superpowers) | Skills + methodology | Agentic skills framework and software-development methodology. 277k+ stars, the second most-starred repository in this space. |
 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Collection | Production engineering skills for coding agents from Addy Osmani. 89k+ stars. |
 | [skills.sh](https://github.com/vercel-labs/skills) | Package manager | `npx skills add owner/repo` installs a skill across 40+ agents. From Vercel Labs. 29k+ stars. |
@@ -731,6 +733,7 @@ Files and templates that help AI understand your codebase.
 | Resource | Type | Why It's Awesome |
 |----------|------|------------------|
 | [AGENTS.md](https://agents.md/) | Template | Open format for guiding coding agents in your repository. |
+| [TASKS.md](https://github.com/taskade/tasks.md) | Spec | AGENTS.md says how to work. TASKS.md says what happened: the request, the exclusions, and the evidence. Apache-2.0. |
 | [Claude Code Project Configuration](https://docs.anthropic.com/en/docs/claude-code/settings#project-configuration) | Docs | Configure repository-level guidance and behavior for Claude Code. |
 | [CodeGuide](https://codeguide.dev/) | Generator | AI-powered documentation generator. Creates guides AI can understand. |
 | [cursor-rules](https://github.com/PatrickJS/awesome-cursorrules) | Collection | Curated .cursorrules files for different frameworks and languages. |
