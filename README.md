@@ -431,6 +431,7 @@ Tools for specific coding workflows.
 | [ax](https://github.com/Necmttn/ax) | Free | Session observability | Local telemetry and recall graph for Claude Code, Codex, Cursor, OpenCode, and Pi sessions, tools, skills, and cost. |
 | [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot) | Free | Full app dev | Builds entire apps from scratch. Interactive development with AI. |
 | [d1v](https://github.com/d1vai/d1v-cli) | Free | AI-built web deployments | CLI workflow that waits for verified previews and requires explicit confirmation before production releases. |
+| [Shipvela](https://github.com/stefanautomateed/shipvela-codex) | Free tier; paid hosting plans | Publishing from coding agents | OAuth MCP connector, publishing skill and CLI setup for deploying supported websites, reviewing builds and returning a live URL with owner approval. |
 
 ---
 
@@ -484,6 +485,7 @@ AI that automates your browser — recording workflows, triaging inboxes, fillin
 | [browser-use](https://github.com/browser-use/browser-use) | Free | Open source | Open-source browser automation for AI agents. Python-based, works with any LLM. |
 | [Bardeen](https://www.bardeen.ai/) | Free tier | No-code | AI automates repetitive browser tasks with a visual builder. Integrates with 100+ web apps. |
 | [Skyvern](https://github.com/Skyvern-AI/skyvern) | Free | Enterprise | AI agent for browser workflows. Visual + LLM navigation for complex web tasks. |
+| [Drevon](https://www.drevon.dev) | Free | GTM work | Mac app that connects to your Claude Code or Codex and turns it into an end-to-end GTM operator: research, grunt work, analysis and actions across your stack from a single prompt, in your own browser with your own logins. |
 
 > **Use cases:** Email triage, customer service follow-ups, competitive research, data entry, scheduled web scraping, cross-tab analysis, and QA testing.
 >
@@ -626,6 +628,7 @@ Tools that give AI agents persistent memory and context.
 
 | Tool | Type | Why It's Awesome |
 |------|------|------------------|
+| [ContextStream](https://contextstream.io) | Shared project context MCP | Shared project context for Cursor, Claude Code, Codex, Grok via hosted MCP. OSS server + benchmarks. Intelligence isn’t the bottleneck. Context is. |
 | [Blume](https://blume.codes/) | Desktop context companion | Monitors coding-agent sessions, surfaces the rules, skills, and hooks shaping each run, proposes reviewable context improvements, and keeps chat history local. |
 | [Headroom](https://github.com/headroomlabs-ai/headroom) | Context compression | Compresses tool output, logs, and RAG chunks before they reach the model. About 20% fewer tokens. Library, proxy, and MCP server. 67k+ stars. |
 | [Beads](https://github.com/gastownhall/beads) | Issue and memory ledger | Version-controlled ledger for agent work so sessions resume after crashes. 26k+ stars. |
@@ -649,6 +652,8 @@ Skills are reusable, versioned instruction packages (a `SKILL.md` file plus opti
 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Collection | Production engineering skills for coding agents from Addy Osmani. 89k+ stars. |
 | [skills.sh](https://github.com/vercel-labs/skills) | Package manager | `npx skills add owner/repo` installs a skill across 40+ agents. From Vercel Labs. 29k+ stars. |
 | [Claude Code Plugins](https://github.com/anthropics/claude-code/tree/main/plugins) | Examples | Official plugin and skill examples for Claude Code. |
+| [1human](https://github.com/mdagnolops/1human-reels/tree/main/skills/agent-reels) | Skill | Consults shared human–agent preferences and credited motion references before authorized creative tasks. |
+| [anti-slop-design](https://github.com/wwewtech/anti-slop-design) | Skill | Autonomous Principal Design Technologist that cures vibe-coded prototypes from AI design slop with curated token archetypes and 7-axis quality gating. |
 
 ---
 
@@ -1216,6 +1221,7 @@ Where vibe coding news breaks first.
 | [GitHub Topic: vibe-coding](https://github.com/topics/vibe-coding) | Open source | Track fresh launches and active open-source vibe coding projects. |
 | [HackerNoon](https://hackernoon.com/tagged/ai) | Tech Stories | Developer-written AI content. Long articles and tutorials. |
 | [Dev.to AI](https://dev.to/t/ai) | Dev Community | Community tutorials and discussions on AI coding. |
+| [Shipped & Paid](https://shippedandpaid.com) | Revenue cases | Apps built with AI coding tools that report revenue, each with a linked source and a proof label (Verified, Screenshot or Self-reported). |
 
 ---
 
